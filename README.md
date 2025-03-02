@@ -3,7 +3,7 @@ An AI-powered chatbot built using Python to provide intelligent responses based 
 ## Features
 -Natural language processing for intelligent responses
 -Customizable intents and responses
--Interactive command-line interface (CLI) or web-based UI (if applicable)
+-Interactive command-line interface (CLI)
 -Easily extendable with more features
 ## Prerequisites
 -Python 3.13.1 installed
@@ -14,6 +14,11 @@ An AI-powered chatbot built using Python to provide intelligent responses based 
   cd AI-chatbot
 -install dependencies
   pip install -r requirements.txt
+-Set up Google Generative AI:
+  Install the package:
+  pip install google-generativeai
+  Get your Google API key from Google AI and create a .env file in the project root:
+  GOOGLE_API_KEY=your_google_api_key_here
 -run the chatbot
   python chatbot.py
 ## Technologies used
